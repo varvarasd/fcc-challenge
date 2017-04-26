@@ -8,11 +8,13 @@
       .image-caption #{add.imageCaption}
     .home-personal
       .home-personal-title #{add.personal.title}
-      .home-personal-content #{add.personal.content}
+      .home-personal-content 
+      each contentItem in add.personal.content
+        .personal-content-item #{contentItem}
     .home-career
       .home-career-uk
         .career-uk-title #{add.careerUk.title}
-        .career-uk-content #{add.careerUs.content}
+        .career-uk-content #{add.careerUk.content}
       .home-career-us
         .career-us-title #{add.careerUs.title}
         .career-us-content #{add.careerUs.content}

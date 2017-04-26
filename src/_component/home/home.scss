@@ -30,6 +30,8 @@ $class: 'home';
 .image-caption {
   font-size: 40%;
   line-height: 1.5;
+  padding: 0 0.5rem;
+  color: lighten(black, 30);
 }
 
 img.top-image {
@@ -43,4 +45,24 @@ img.top-image {
   background: $color-white;
   padding: 0.1rem 0.1rem 0.5rem 0.1rem;
   margin-bottom: 1rem;
+}
+
+// home Personal section
+
+.#{$class}-personal {
+  @extend %content-rule;
+}
+
+.#{$class}-personal-title {
+  padding: 0.5rem;
+  font-weight: bold;
+}
+
+.#{$class}-personal-content {
+  padding: 0 0.5rem;
+}
+
+.personal-content-item {
+  text-align: justify;
+  text-indent: 1rem;
 }
