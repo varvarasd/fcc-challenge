@@ -42,8 +42,10 @@ img.top-image {
   border: 0.02rem solid lighten($color-nobel, 15);
   border-radius: 0.1rem;
   background: $color-white;
-  padding: 0.1rem 0.1rem 0.5rem 0.1rem;
+  width: 92%;
   margin-bottom: 1rem;
+  flex-direction: column;
+  margin: 0 auto;
 }
 
 // home Personal section
