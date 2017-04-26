@@ -1,31 +1,33 @@
-.home-wrapper
-  .home-title #{add.title}
+.home
+  .home-wrapper
+    .home-title #{add.title}
     .home-subtitle #{add.subtitle}
-  .home-quote #{add.quote}
-  .home-image 
-    image(src=add.image)
-  .home-personal
-    .home-personal-title #{add.personal.title}
-    .home-personal-content #{add.personal.content}
-  .home-career
-    .home-career-uk
-      .career-uk-title #{add.careerUk.title}
-      .career-uk-content #{add.careerUs.content}
-    .home-career-us
-      .career-us-title #{add.careerUs.title}
-      .career-us-content #{add.careerUs.content}
-  .home-books
-    .home-books-title #{add.books.title}
-    .home-books-list
-      .home-books-list-item
-  .home-videos
-    .home-videos-talks
-      .home-talk-title
-      .home-talk-content 
-    .home-videos-interview
-      .home-interview-title
-      .home-interview-content
-    .home-videos-debates
-      .home-debate-title
-      .home-debate-content
-.home-author
+    .home-quote #{add.quote}
+    .home-image 
+      img.top-image(src=add.image alt="Christopher Hitchens chess image")
+      .image-caption #{add.imageCaption}
+    .home-personal
+      .home-personal-title #{add.personal.title}
+      .home-personal-content #{add.personal.content}
+    .home-career
+      .home-career-uk
+        .career-uk-title #{add.careerUk.title}
+        .career-uk-content #{add.careerUs.content}
+      .home-career-us
+        .career-us-title #{add.careerUs.title}
+        .career-us-content #{add.careerUs.content}
+    .home-books
+      .home-books-title #{add.books.title}
+      .home-books-list
+        .home-books-list-item
+    .home-videos
+      .home-videos-talks
+        .home-talk-title
+        .home-talk-content 
+      .home-videos-interview
+        .home-interview-title
+        .home-interview-content
+      .home-videos-debates
+        .home-debate-title
+        .home-debate-content
+  .home-author

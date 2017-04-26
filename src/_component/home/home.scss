@@ -1,0 +1,46 @@
+$class: 'home';
+
+.#{$class} {
+  padding: 0.5rem 1rem;;
+}
+
+.#{$class}-wrapper {
+  margin: 1rem;
+  padding: 1rem;
+  background: lighten($color-westar, 7);
+  text-align: center;
+}
+
+.#{$class}-title {
+  font-weight: bold;
+  font-size: 120%;
+  padding: 0.5rem 1rem;
+}
+
+.#{$class}-subtitle {
+  font-size: 60%;
+}
+
+.#{$class}-quote {
+  font-style: oblique;
+  font-size: 70%;
+  padding: 0.5rem;
+}
+
+.image-caption {
+  font-size: 40%;
+  line-height: 1.5;
+}
+
+img.top-image {
+  max-width: 100%;
+  border-radius: 0.1rem 0.1rem 0 0;
+}
+
+.#{$class}-image {
+  border: 0.02rem solid lighten($color-nobel, 15);
+  border-radius: 0.1rem;
+  background: $color-white;
+  padding: 0.1rem 0.1rem 0.5rem 0.1rem;
+  margin-bottom: 1rem;
+}
