@@ -1,0 +1,15 @@
+@import 'reset';
+
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: sans-serif;
+}
+
+html {
+  font-size: calc( 12px + (24 - 12) * ( (100vw - 400px) / ( 800 - 400) ));
+}
