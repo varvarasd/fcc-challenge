@@ -57,12 +57,60 @@ img.top-image {
   @extend %article-wrap;
 }
 
-.#{$class}-personal-title {
+.#{$class}-personal-title,
+.career-uk-title,
+.career-us-title,
+.books-title {
   @extend %article-title;
 }
 
-.personal-content-item {
+.personal-content-item,
+.career-uk-item,
+.career-us-item {
   @extend %article-item;
 }
 
-// home Career section
+ul.books-list li {
+  &:nth-child(odd){
+    background-color: darken($color-ottoman, 5);
+  }
+  &:nth-child(even) {
+    background-color: darken($color-ottoman, 2);
+  }
+}
+
+ul.books-list {
+  list-style-type: disc;
+  list-style-position: inside;
+  border: 0.05rem solid $color-nobel;
+  font-size: 60%;
+}
+
+li.books-item {
+  text-align: left;
+  text-align: justify;
+  padding: 0 0.2rem;
+}
+
+.#{$class}-author {
+  text-align: center;
+  border-top: 0.01rem solid $color-nobel;
+  padding-top: 0.5rem;
+  @extend %article-item;
+  font-size: 25%;
+  color: lighten(black, 30);
+}
+
+a {
+  text-decoration: none;
+  color: $color-blue;
+  &:hover {
+    color: $color-red;
+  }
+}
+
+p.#{$class}-info {
+  @extend %content-wrap;
+  text-align: justify;
+  text-align: center;
+}

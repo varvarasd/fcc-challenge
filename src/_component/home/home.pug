@@ -8,28 +8,27 @@
       .image-caption #{add.imageCaption}
     .home-personal
       .home-personal-title #{add.personal.title}
-      .home-personal-content 
       each contentItem in add.personal.content
         .personal-content-item #{contentItem}
     .home-career
       .home-career-uk
         .career-uk-title #{add.careerUk.title}
-        .career-uk-content #{add.careerUk.content}
+      each contentItem in add.careerUk.content
+        .career-uk-item #{contentItem}
       .home-career-us
         .career-us-title #{add.careerUs.title}
-        .career-us-content #{add.careerUs.content}
+      each contentItem in add.careerUs.content
+        .career-us-item #{contentItem}
     .home-books
-      .home-books-title #{add.books.title}
-      .home-books-list
-        .home-books-list-item
-    .home-videos
-      .home-videos-talks
-        .home-talk-title
-        .home-talk-content 
-      .home-videos-interview
-        .home-interview-title
-        .home-interview-content
-      .home-videos-debates
-        .home-debate-title
-        .home-debate-content
+      .books-title #{add.books.title}
+      ul.books-list
+        each listItem in add.books.list
+          li.books-item #{listItem}
+    p.home-info
+      | There is so much 
+      a(href=add.link.wiki) information 
+      | and 
+      a(href=add.link.youtube) videos  
+      | about this extraordinary man in this sentence than in all this page.
   .home-author
+    p Written and coded by Daniel Varvara

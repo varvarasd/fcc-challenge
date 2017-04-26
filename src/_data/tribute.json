@@ -6,6 +6,11 @@
   },
   "home":
   {
+    "link":
+    {
+      "wiki": "https://en.wikipedia.org/wiki/Christopher_Hitchens",
+      "youtube": "https://www.youtube.com/watch?v=uxa8IL9pyM8"
+    },
     "title": "Christopher Eric Hitchens",
     "subtitle": "(13 April 1949 – 15 December 2011)",
     "quote": "'Human decency is not derived from religion. It precedes it.'",
@@ -77,24 +82,6 @@
         "2012 Mortality, Twelve, ISBN 1-4555-0275-8 / ISBN 978-1-4555-0275-2. UK edition as Mortality, Atlantic Books, ISBN 1-84887-921-0 / ISBN 978-1-84887-921-8",
         "2015 And Yet...: Essays, Simon & Schuster, ISBN 978-1476772066"
       ]
-    },
-    "videos":
-    {
-      "talks":
-      {
-        "title": "Talks",
-        "url": "talks url here"
-      },
-      "interviews":
-      {
-        "title": "Interviews",
-        "url": "interview url here"
-      },
-      "debates":
-      {
-        "title": "Debates",
-        "url": "debates url here"
-      }
     }
   }
 }
